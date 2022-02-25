@@ -1,0 +1,932 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at Chard, June 21, 1685 before the right honourable John Lord Churchhill, and His Majestie's forces / by S. Rich ...</title>
+            <author>Rich, S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 65 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A57220</idno>
+            <idno type="STC">Wing R1365</idno>
+            <idno type="STC">ESTC R33995</idno>
+            <idno type="EEBO-CITATION">13651974</idno>
+            <idno type="OCLC">ocm 13651974</idno>
+            <idno type="VID">100995</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A57220)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100995)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1045:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at Chard, June 21, 1685 before the right honourable John Lord Churchhill, and His Majestie's forces / by S. Rich ...</title>
+                  <author>Rich, S.</author>
+               </titleStmt>
+               <extent>[6], 29 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by R.N. for Charles Brome ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Running title reads: A sermon preached before His Majestie's forces.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Sermons --  17th century.</term>
+               <term>Bible. --  N.T. --  Romans XIII, 2 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100995:1" rendition="simple:additions"/>
+            <p>A SERMON Preached at CHARD, <hi>J<g ref="char:V">Ʋ</g>NE</hi> 21. 1685. Before the Right Honourable JOHN Lord
+CHURCHILL, And His MAJESTIE'S Forces.</p>
+            <p>By <hi>S. RICH,</hi> A. M. Rector of <hi>Stalbridge,</hi> in the County of <hi>Dorſet;</hi>
+and Chaplain to his Grace the Duke of <hi>ALBEMARLE.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>ΕΙΚΩΝ ΒΑΣΙΛΙΚΗ, Pag.
+177.</hi>
+               </bibl>
+               <p>I am ſure the right methods of Reforming the Church cannot conſiſt with that of perturbing
+the Civil State, nor can Religion be juſtly advanced by depreſſing Loyalty, which is one of
+the chiefeſt Ingredients and Ornaments of true Religion; for next to <hi>Fear God,</hi> is,
+<hi>Honour the King.</hi>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>R. N.</hi> for <hi>Charles Brome</hi> at the Gun in St.
+<hi>Paul</hi>'s Church-Yard. 1685.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:100995:2" rendition="simple:additions"/>
+            <pb facs="tcp:100995:2"/>
+            <head>To the Right Honourable JOHN LORD CHURCHILL of AYMOUTH, BARON of <hi>SAND RIDGE,</hi> One of
+the moſt Honourable Lords of His MAJESTIE'S Bed-Chamber, MAJOR GENERAL of all His Majeſtie's
+FORCES both Horſe and Foot, and Captain of the Third Troop of His Majeſtie's Guards,
+<hi>&amp;c.</hi>
+            </head>
+            <opener>
+               <salute>MY LORD,</salute>
+            </opener>
+            <p>AS His moſt Sacred MAJESTY (whoſe Life and happy Raign God long preſerve) did very
+Providentially make Choice of Your Lordſhip, as a ſignal Inſtrument in that great and
+glorious Action; which un<g ref="char:EOLhyphen"/>der God was the Preſervation of His MAJE<g ref="char:EOLhyphen"/>STY and His Kingdoms: So was
+Your Lord<g ref="char:EOLhyphen"/>ſhips
+<pb facs="tcp:100995:3"/>readineſs as Eminent in the performance of all His Sacred commands; inſomuch that
+by the Loyal obedience, the Conduct, Care and Courage of Your Honourable ſelf, together with Your
+Illuſtrious Aſſociates, there was a ſhort end put to the raging torrent of an unparallell'd
+Re<g ref="char:EOLhyphen"/>bellion; wherein the influence of Your Lord<g ref="char:EOLhyphen"/>ſhips examples wrought Miracles never to be
+forgotten.</p>
+            <p>
+               <hi>My Lord,</hi>
+            </p>
+            <p>As I had often the Honour to be a witneſs of Your Lordſhips brave and generous behaviour
+towards His MAJESTIE'S Forces, ſo I had the further Honour of being commanded by Your Lordſhip
+into the Pulpit, and afterwards to commit that to the Preſs, which I had de<g ref="char:EOLhyphen"/>livered before to the
+Army, which could I with modeſty have declined, had been.</p>
+            <p>But ſince the Diſcourſe was chiefly upon <hi>Non-Reſiſtance,</hi> I ought not to be
+the firſt that ſhould dare oppoſe Your Lordſhips commands in that particular, being
+reſolved to be obedient in all others.</p>
+            <p>And though I know the following Diſcourſe may upon the reading of it, be ſubject to the
+Cenſure of ſome, who I believe will not be back<g ref="char:EOLhyphen"/>ward
+<pb facs="tcp:100995:3"/>to aſperſe even Majeſty it ſelf; yet I am the more at eaſe, becauſe I
+reckon my ſelf to be under the Protection of a perſon whoſe Character gives a reputation to
+all that have the Honour to ſerve him.</p>
+            <p>Nor can I, <hi>My Lord,</hi> but be ſenſible of Your Lordſhips Candid acceptance of the
+little Ser<g ref="char:EOLhyphen"/>vice I did in my happy Intercepting the two Poſts and Letters of the Rebels, and
+bringing them to your Lordſhip; which was the occaſion of Your Commands on me, to Preach the
+next day; and having therein obeyed Your Lordſhips Com<g ref="char:EOLhyphen"/>mand, Your Goodneſs hath given me ſome
+ſort of Title to preſume upon this Dedication, which begs only Your Pardon for the confidence
+of a Loyal Subject; and a perſon otherwiſe at Your Lordſhips devotion, by all the tyes that
+can ob<g ref="char:EOLhyphen"/>lige an honeſt man, and,</p>
+            <closer>
+               <salute>My Lord,</salute>
+               <signed>
+                  <hi> YOUR LORDSHIPS moſt Obedient Servant,</hi> S. RICH.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:100995:4"/>
+            <pb n="1" facs="tcp:100995:4"/>
+            <head>A SERMON Preached before His Majeſtie's Forces.</head>
+            <epigraph>
+               <bibl>
+                  <hi>ROM. XIII. 2.</hi>
+               </bibl>
+               <q>
+                  <p>And they that reſiſt, ſhall receive to them<g ref="char:EOLhyphen"/>ſelves damnation.</p>
+               </q>
+            </epigraph>
+            <p>AS there are ſome <hi>ages</hi> and <hi>times,</hi> that are more infeſted with unhappy
+Influences from the heavens, and noxious Reeks from the earth, which by poiſoning the air, roots,
+and herbs, propagate that deadly venom into mens bodies that even wearies death, and gluts the
+grave with its ſlaugh<g ref="char:EOLhyphen"/>ters. In like manner there are poiſonous <hi>Lectures</hi> in the
+<hi>Conventicle,</hi> and <hi>malign humors</hi> in the <hi>Populace,</hi> which infect the publick
+air, &amp; ſpread a fatal contagion into mens <hi>Principles</hi> and <hi>Manners,</hi> which
+flies like in<g ref="char:EOLhyphen"/>fection, and deſtroys like the plague: And if ever <hi>times</hi> were under
+croſs and unlucky Aſpects, if ever there
+<pb n="2" facs="tcp:100995:5"/>were a ſpirit of <hi>phrenſie</hi> and <hi>miſchief</hi> in the world in
+any daies ſince the <hi>firſt,</hi> certainly the Lot is fallen on <hi>ours;</hi> wherein mens
+<hi>Principles</hi> and <hi>Practices</hi> contend which ſhall outdo each other in
+<hi>degrees</hi> of <hi>evil,</hi> and 'tis hard to ſay which are worſe, mens <hi>actions</hi>
+or <hi>opinions:</hi> we are fallen into <hi>times,</hi> wherein among ſome 'tis a piece of
+gallantry to <hi>defy God,</hi> and a kind of <hi>wit</hi> to be an <hi>Atheiſt:</hi> among
+others 'tis <hi>Religion</hi> to be <hi>phantaſtick,</hi> and <hi>Conſcience</hi> to be
+<hi>turbulent</hi> and <hi>ungovernable,</hi> nor have mens <hi>practices</hi> come ſhort of the
+<hi>malignity</hi> of their <hi>belief,</hi> but if poſſible have <hi>outdone it.
+Atheiſm</hi> hath not reſted in the <hi>Judgment,</hi> but proceeded to all <hi>enormities</hi>
+and <hi>debauches,</hi> and we had not been here at this day, up<g ref="char:EOLhyphen"/>on this occaſion, if
+<hi>Rebellion</hi> had ſlept in <hi>Opinion.</hi> But alas, the venom of the Aſp hath ſwoln
+into deadly tu<g ref="char:EOLhyphen"/>mors, and thoſe Seditious Principles which bred the <hi>laſt Civil war,</hi>
+have again ſhot their poyſonous arrows into the Vitals of the <hi>publick body.</hi> We
+<hi>yet</hi> feel the ſmart of <hi>thoſe</hi> wounds, and the generations to come will wear the
+Scars and the marks of <hi>that Rebellion.</hi> What is <hi>paſt</hi> we may <hi>lament,</hi> but
+can't <hi>remedy.</hi> What we may do, and what we ought, is to inform our ſelves better of the
+<hi>duty</hi> we owe to <hi>God,</hi> and thoſe <hi>he</hi> hath appoint<g ref="char:EOLhyphen"/>ed over us, and to
+endeavour the ſuppreſſing of <hi>thoſe principles</hi> which breath the plagues that
+deſtroyed the <hi>Nation,</hi> and would <hi>again</hi> burn us up in hotter flames than
+<hi>thoſe.</hi> And if <hi>that</hi> fatal fire which then prey'd upon our <hi>Peace</hi> and our
+<hi>Properties,</hi> our <hi>Religion</hi> and our <hi>Government,</hi> our <hi>Perſons</hi> and
+our <hi>Friends,</hi> hath not yet convinced the world of the <hi>evil</hi> and <hi>danger</hi> of
+a <hi>Reſiſtance;</hi> yet there is <hi>another,</hi> and a <hi>greater</hi> as
+<hi>cer<g ref="char:EOLhyphen"/>tain</hi> and more <hi>fatal,</hi> threatned by the <hi>Apoſtle, damna<g ref="char:EOLhyphen"/>tion: For they
+that reſiſt ſhall receive to themſelves dam<g ref="char:EOLhyphen"/>nation.</hi>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:100995:5"/>Which Words were ſpoken in the daies of <hi>Nero,</hi> who, beſides that he
+was a <hi>Heathen,</hi> was a <hi>Perſecutor</hi> and a <hi>Tyrant,</hi> and the moſt infamous
+inſtance in na<g ref="char:EOLhyphen"/>ture; and yet this Miſcreant is not excepted as to the <hi>tribute</hi> of
+<hi>Obedience.</hi> Whereas had this been ſaid in the days of ſuch a <hi>Prince</hi> as
+<hi>ours,</hi> it might have been ſuppoſed that the <hi>virtue</hi> of the <hi>perſon</hi>
+claim<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <hi>re<g ref="char:EOLhyphen"/>verence</hi> and
+<hi>ſubjection,</hi> and not the <hi>character</hi> of the <hi>Prince;</hi> and that 'twas
+<hi>damnable</hi> to <hi>Reſiſt</hi> becauſe he was <hi>good,</hi> not becauſe he was
+<hi>ſupream:</hi> 'twas a happy conceſſion therefore to ſecure the <hi>Authority</hi> of
+the <hi>Magiſtrate,</hi> which anſwers the greateſt pretenſions of <hi>Rebellion;</hi> if
+<hi>Religion</hi> be pretended, an <hi>Heathen</hi> muſt not be <hi>Reſiſted.</hi> If
+<hi>Tyranny,</hi> 'tis <hi>damnation</hi> to <hi>reſiſt</hi> a <hi>Nero;</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>wrath</hi> and <hi>judgment</hi> of <hi>God,</hi> which implies the
+<hi>guilt,</hi> and expreſſeth the <hi>danger.</hi>
+            </p>
+            <p>To <hi>reſiſt</hi> the <hi>AUthority Providence</hi> hath ſet over us, is ſo
+<hi>ſinful</hi> and ſo <hi>dangerous</hi> principally on theſe Three accounts: That it
+Firſt <hi>Affronts</hi> the <hi>Authority</hi> of <hi>God;</hi> Secondly, 'Tis contrary to the
+<hi>Spirit</hi> of <hi>Religion;</hi> Thirdly, Deſtructive to the <hi>Intereſt</hi> of
+<hi>Societies.</hi> The Two former expreſs the <hi>guilt,</hi> and the latter both the
+<hi>ſin</hi> and the <hi>puniſhment.</hi>
+            </p>
+            <p>Firſt, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith the <hi>Heathen;</hi> and a
+greater than both acknow<g ref="char:EOLhyphen"/>ledgeth <hi>Pilate</hi>'s <hi>power</hi> to be from <hi>above.</hi> The
+Holy Scripture intitles <hi>God</hi> to all the <hi>Royal Adjuncts,</hi> and both
+<hi>Chriſtian</hi> and <hi>heathen Antiquity ſymbolize</hi> in theſe with the <hi>Sacred
+Oracles,</hi> which hath been largely proved by an excellent <hi>Prelate,</hi> as an inſtance in
+ſome of his particulars: Firſt, the <hi>Kings</hi> perſon is ſaid to be <hi>Gods.</hi> 2
+<hi>Sam.</hi> 22.51. <hi>he is the tower of Salvation for his King,</hi> and 1 Sam. 2.10. <hi>and
+he ſhall give ſtrength
+<pb n="4" facs="tcp:100995:6"/>unto his Kings, and exalt the horn of his anointed. I have ſaid, ye are
+gods;</hi> and <hi>Plato</hi> calls the <hi>King,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>Gods</hi> name is
+called not only on's <hi>perſon,</hi> but Secondly, on's <hi>Throne,</hi> 2 Chron. 9.8.
+<hi>bleſſed be the Lord thy God who ſet thee on his throne to be King for the Lord thy
+God.</hi> So <hi>Homer</hi> of <hi>Agamemnon: Jove</hi> lent thee thy <hi>Scepter</hi> and
+<hi>Juriſdiction.</hi> Thirdly, the <hi>Kings Titles</hi> alſo relate <hi>him</hi> to
+<hi>God—Gods anointed, his ſervant</hi> given to <hi>Saul,</hi> 1 Sam. 12.3. <hi>behold
+here I am before the Lord and before his Anointed:</hi> To <hi>Cyrus, Iſa.</hi> 45.1. <hi>Thus
+ſaith the Lord unto Cyrus his anointed.</hi> To <hi>Nebuchadnezzar,</hi> Jer. 25.9. <hi>Behold I
+will ſend and take all the families of the North, ſaith the Lord, and Ne<g ref="char:EOLhyphen"/>buchadnezzar the King
+of Babylon, my ſervant:</hi> the ſame <hi>Athanaſius</hi> gives to <hi>Conſtantius</hi> the
+great favourer of the <hi>Arrians.</hi> Fourthly, The <hi>Kings power</hi> is from <hi>God,</hi> to
+whom alone he is <hi>accountable:</hi> an <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> an <hi>unaccountableneſs,</hi> or
+<hi>impunity</hi> being a neceſſary at<g ref="char:EOLhyphen"/>tendant on his <hi>Royal function.</hi> A Kingdom,
+<hi>Plato</hi> calls, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Gods gift.</hi> 2 Chron. 36.23. <hi>Thus ſaith
+Cyrus King of Perſia, all the kingdoms of the earth hath the Lord God of heaven given me.</hi>
+Dan. 2.37. <hi>O King, thou art a King of kings, for the God of heaven hath given thee a kingdom,
+power, and ſtrength, and glory. Athanaſius</hi> proves by teſtimonies ſufficient that the
+<hi>King</hi> wears <hi>Gods image</hi> and <hi>Authority:</hi> therefore called by
+<hi>Meander,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. The figure of God among men; by the <hi>Pythagorean.</hi>
+And there's evidence in the nature of the thing to prove that <hi>Kings</hi> are no
+<hi>ſubſtitutes</hi> of the <hi>people,</hi> God having made the world, 'tis <hi>his,</hi> and
+<hi>his</hi> alone, the <hi>Right</hi> to govern it: but being of ſuch immenſe perfection, that
+our frailties can't bear his <hi>immediate</hi> Rules; 'tis a <hi>mercy</hi> that he rules us by
+men
+<pb n="5" facs="tcp:100995:6"/>like our ſelves, and puts the <hi>ſword</hi> into the hands of creatures of
+our own make; this he doth. Therefore they that <hi>Rule</hi> are <hi>Gods Subſtitutes,</hi> and
+no <hi>creatures</hi> of the people; for the people have no power to govern themſelves, and
+conſequently cannot devolve any upon another; therefore the ſame <hi>authority</hi> and
+<hi>com<g ref="char:EOLhyphen"/>mands</hi> that oblige us to <hi>obey</hi> God, bind us to <hi>reverence</hi> his
+Viceroy.</p>
+            <p>Secondly, <hi>Reſiſtance</hi> is oppoſite to the Spirit of <hi>Re<g ref="char:EOLhyphen"/>ligion; Religion</hi> is
+of a calm and pacifick temper, like the <hi>Author,</hi> whoſe voice was not heard in the
+ſtreet; <hi>it</hi> ſubdues our Paſſions and reſtrains our Appetites, <hi>it</hi>
+deſtroys our Pride and ſordid ſelfiſhneſs, <hi>it</hi> allayes the Tempeſts and
+ſpeaks down the Storms of our Natures; <hi>it</hi> ſweetens our Humour, and poliſheth the
+rough<g ref="char:EOLhyphen"/>neſs of our Tempers; <hi>it</hi> makes men gentle and peace<g ref="char:EOLhyphen"/>able, meek and compliant:
+<hi>this</hi> was the <hi>Spirit</hi> of the great <hi>Exemplar</hi> of our <hi>Religion; this</hi>
+was the Sence of his <hi>doctrine</hi> and his <hi>practice: He</hi> commands <hi>duties</hi> to be
+paid to <hi>Caeſar,</hi> acknowledgeth <hi>Pilate's power</hi> to be from <hi>above,</hi>
+commands the Diſciples to <hi>pray</hi> for their <hi>perſecutors,</hi> permits them to
+<hi>flye,</hi> not to <hi>oppoſe, rebukes Peter's violence</hi> to the High Prieſt's ſervant,
+and the Diſciples <hi>revenge</hi> in calling for fire; <hi>he</hi> paid tribute,
+<hi>ſubmitted</hi> to the Laws of the <hi>Sanbedrim,</hi> and to the <hi>unjuſt ſentence</hi>
+of his Life. This was <hi>his</hi> temper, and the Apoſtles who lived among <hi>his</hi> enemies
+and <hi>theirs,</hi> and met with <hi>ſeverity</hi> enough to ſowr their <hi>Spirits,</hi> and
+exaſperate <hi>their</hi> pens to contrary reſolutions and inſtructions; yet as true
+followers of <hi>their</hi> dear <hi>Lord, they</hi> faithfully tranſmit to <hi>us</hi> what they
+had learn'd from <hi>him, viz.</hi> that <hi>we</hi> ſhould <hi>obey</hi> thoſe that have the
+<hi>Rule</hi> over us, <hi>ſubmit</hi> to every <hi>ordinance</hi> of <hi>man, pray</hi>
+               <pb n="6" facs="tcp:100995:7"/>for <hi>Kings</hi> and all in <hi>authority, ſubmit</hi> to Principalities and
+Powers, and <hi>obey</hi> Magiſtrates: And thoſe Spirits of the <hi>firſt ages</hi> after,
+who began to be <hi>Martyrs</hi> as ſoon as to be <hi>Chriſtians;</hi> who lived in the
+<hi>fire,</hi> and went to heaven wrapt in thoſe flames that had leſs ardor than their Love;
+<hi>thoſe</hi> amidſt the greateſt and fierceſt fires that cruelty and barbariſm had
+kindled, paid the <hi>tri<g ref="char:EOLhyphen"/>bute</hi> of a peaceable and quiet <hi>ſubjection</hi> to their
+mur<g ref="char:EOLhyphen"/>therers, and make enforced acknowledgments of the <hi>Right</hi> they had to their
+<hi>obedience:</hi> nor do we read they made any attempts to free themſelves by
+<hi>Reſiſtance;</hi> though as <hi>Tert.</hi> ſaith, they were in powerful num<g ref="char:EOLhyphen"/>bers mingled
+in their Villages, Cities, Caſtles, Ar<g ref="char:EOLhyphen"/>mies: An Illuſtrious inſtance of <hi>paſſive
+obedience</hi> in the <hi>Thebeian Legion,</hi> ſubmitting peaceably to a firſt and ſe<g ref="char:EOLhyphen"/>cond
+<hi>decimation,</hi> making way to heaven not by their <hi>ſwords</hi> but another warfare. And
+now if after all <hi>this,</hi> and infinitely <hi>more</hi> on this Subject that might be ſaid,
+to pretend <hi>Religion,</hi> and plead <hi>Scripture</hi> for <hi>Rebellion,</hi> is impudent and
+ſhameful; an affront to <hi>Religion</hi> and a lye in the face of <hi>Chriſt:</hi> and thoſe
+that cannot diſcern thoſe <hi>great</hi> lines of their <hi>duty,</hi> which are ſet upon the
+high places, and illuſtrated with a <hi>full</hi> beam, and yet can find ſin in little
+harmleſs circumſtances, which nothing hath forbidden but the coyneſs and per<g ref="char:EOLhyphen"/>verſneſs of
+their own humour, are like <hi>him</hi> that could ſee the Stars at noon, but not the Sun, and
+could ſpye the ſhadows made by the mountains in the Moon, but not the greater ſpots in its
+viſible ſurface. And for men to ſtrain at the decency of a <hi>habit,</hi> or the uſage of
+a <hi>Ceremony,</hi> when they can ſwallow <hi>Rebellion</hi> without chewing: is to be like him
+who durſt not eat an <hi>Egg</hi> on Saturday, but made nothing to kill a man. Had
+<pb n="7" facs="tcp:100995:7"/>the Holy Scripture ſaid by 1000 part ſo much for the <hi>Jus divinum</hi> of
+<hi>Presbytery,</hi> as it hath for <hi>obedience</hi> to <hi>Au<g ref="char:EOLhyphen"/>thority;</hi> had there been one
+plain word againſt <hi>Confor<g ref="char:EOLhyphen"/>mity,</hi> as there are many againſt <hi>Rebellion,</hi> that
+would have been worn bare upon the tongue, and have filled the world with endleſs importunities.
+But the <hi>In<g ref="char:EOLhyphen"/>junctions</hi> and <hi>commands</hi> of <hi>Obedience</hi> are againſt our humours
+and opinions, againſt the <hi>darling</hi> of our <hi>fancies,</hi> and the <hi>intereſt</hi>
+of our <hi>parties,</hi> and therefore here we muſt ſhuffle and evade, cog and interpret by
+Analogies of our own making, by the rules of our <hi>Sect</hi> and the <hi>Authority</hi> we
+worſhip, by <hi>neceſſity</hi> and <hi>provi<g ref="char:EOLhyphen"/>dence,</hi> and every thing that will
+<hi>colour</hi> ſin, and <hi>cozen</hi> Conſcience, that will turn <hi>Religion</hi> into the
+current of our Appetites, and make <hi>Scripture</hi> ſpeak the lan<g ref="char:EOLhyphen"/>guage of our humours. Thus
+<hi>Religion</hi> and <hi>divine Au<g ref="char:EOLhyphen"/>thority</hi> ſhall be reverenced and pleaded when they agree
+with mens <hi>own</hi> meaſures, and ſend any light or advantage to the <hi>favourites</hi> of
+their <hi>Affections;</hi> but when they <hi>croſs</hi> their models, <hi>oppoſe</hi> their
+imaginati<g ref="char:EOLhyphen"/>ons, and call them upon <hi>duties</hi> that are diſpleaſant, the caſe is altered,
+the great motives of perſwaſion have loſt their power and influence, and <hi>Religion</hi>
+can do nothing with them. So I come to the Third, which makes <hi>Reſiſtance</hi> both a great
+<hi>ſin</hi> and <hi>puniſhment.</hi>
+            </p>
+            <p>Thirdly, Its <hi>Ruinous</hi> to the <hi>intereſt</hi> of <hi>Societies.</hi> Theſe I muſt
+more largely proſecute, becauſe it will lead me into the ſad occaſion of our preſent
+meeting. <hi>Man</hi> is a Creature made for <hi>Society,</hi> and what is againſt the
+<hi>intereſt</hi> of <hi>Societies</hi> is deſtructive to humane nature; and if the
+<hi>greatneſs</hi> of a ſin, and the <hi>miſchiefs</hi> are to be meaſured by its reference
+to the <hi>publick,</hi> for ought I know, <hi>Rebellion</hi> will be the <hi>next</hi> ſin to
+that
+<pb n="8" facs="tcp:100995:8"/>which is <hi>unpardonable</hi> in the <hi>degree</hi> of <hi>guilt,</hi> as well
+as it<g ref="char:EOLhyphen"/>is near it in the <hi>penalty threatned.</hi> Now there are <hi>two</hi> great
+<hi>Intereſts</hi> of <hi>Societies, viz. Government</hi> and <hi>Reli<g ref="char:EOLhyphen"/>gion,</hi> to both which
+<hi>Reſiſtance</hi> both in <hi>doctrine</hi> and <hi>practice</hi> is fatal.</p>
+            <p n="1">1. To <hi>Government,</hi> for if <hi>Subjects</hi> may <hi>reſiſt</hi> the power over
+them, no <hi>Government</hi> in the world can ſtand longer than till the <hi>next</hi>
+opportunity to over<g ref="char:EOLhyphen"/>throw it; <hi>every</hi> man will reſiſt what he doth not like, and
+endeavour to pluck down what comports not with <hi>his</hi> humour: thus <hi>every</hi> fit of
+diſcontent will ſtir up the various and inconſtant people to ſeek an altera<g ref="char:EOLhyphen"/>tion. And there
+was never any <hi>Government</hi> ſo exactly framed in the world, but in the manage and
+admini<g ref="char:EOLhyphen"/>ſtration of it many things would diſpleaſe. Now the generality of men are led by their
+<hi>preſent ſenſes,</hi> and if they feel themſelves pained by any thing, (and it may be
+too the grief is but in the imagination) they are for <hi>preſent</hi> deliverance from that
+<hi>evil</hi> by any means, never conſidering whither the cure of that <hi>evil</hi> draws;
+though to <hi>greater</hi> evils after it than the <hi>diſtemper,</hi> and ſo upon every
+diſcontent the people are inflamed, and upon every occaſion <hi>Rebel:</hi> and thus is a
+<hi>Kingdom</hi> laid open to inevitable devaſtation and ruine; and by a dear experience we have
+learn'd, that it is <hi>better</hi> to endure <hi>any</hi> inconveniencies in a <hi>ſetled
+Government,</hi> than to endeavour <hi>violent alterations.</hi> When the Sword is <hi>drawn,</hi>
+no man knows <hi>when</hi> and <hi>where</hi> it will be <hi>ſheathed;</hi> when the ſtone is
+out of a mans hand, he can't direct it as he pleaſeth: men with Swords by their ſides will do
+what liketh <hi>themſelves,</hi> and not what is enjoyned by <hi>thoſe</hi> that imploy them;
+or could we ſuppoſe, what our <hi>own</hi> unhappy experience in the
+<pb n="9" facs="tcp:100995:8" rendition="simple:additions"/>
+               <hi>old Rebellion</hi> hath confuted, that <hi>Armies</hi> would be
+<hi>obedient;</hi> yet the Murders and Rapes, the Spoils and Devaſtations, which are the natural
+iſſues of a <hi>Civil war,</hi> are worſe than any inconvenience in <hi>any</hi> Government
+poſſible. <hi>And though foreign war is like the heat of exerciſe, good and healthful for the
+body, yet civil war is like the heat of fire; Lord Bacon.</hi> Beſides, They that
+<hi>reſiſt,</hi> either overcome the <hi>Supream power,</hi> or the contrary; if the
+<hi>firſt,</hi> then their inſtru<g ref="char:EOLhyphen"/>ments in all likelihood conquer <hi>them</hi> as well as
+<hi>thoſe</hi> they ſecured them againſt; and ſo from the <hi>Juſt Authority</hi> of
+their <hi>Lawful Rulers,</hi> they fall under the <hi>Inſolence</hi> of their <hi>Licentious
+Vaſſals:</hi> or ſuppoſe they get the <hi>Government</hi> to themſelves, all the
+<hi>evils</hi> will follow which uſuallay do upon <hi>Competitions</hi> and <hi>variety</hi> of
+<hi>Claims,</hi> which will breed <hi>everlaſting diſturbance and eternal fears.</hi> If the
+<hi>Reſiſters</hi> be overcome by the Power they <hi>oppoſe,</hi> they can expect nothing
+leſs than to be <hi>Cruſhed</hi> and <hi>ruined.</hi> Thus <hi>either</hi> way they draw
+inevitable <hi>Ruine</hi> upon themſelves, and probably on the <hi>common body.</hi> For
+<hi>Laws</hi> and <hi>Government</hi> are the great <hi>Charters</hi> of our <hi>Lives</hi> and
+<hi>Liberties,</hi> our <hi>Properties</hi> and our <hi>all:</hi> whereas <hi>Murder, Rapes,
+Violence,</hi> and all kind of <hi>miſchief</hi> invade the world with <hi>Anarchy</hi> and
+<hi>diſorder.</hi>
+            </p>
+            <p>And how far all <hi>this</hi> hath been verified in our bor<g ref="char:EOLhyphen"/>ders, a little recollection will
+inform us.</p>
+            <p>For when fair weather and a warm Sun, the in<g ref="char:EOLhyphen"/>dulgence of heaven, and a long tranquillity had
+made us fat and frolick, rich and full; our proſperity made us <hi>wanton,</hi> and our riches
+<hi>inſolent;</hi> we began to <hi>mur<g ref="char:EOLhyphen"/>mur</hi> we knew not <hi>why,</hi> and to
+<hi>complain</hi> becauſe we had <hi>nothing</hi> to complain of. <hi>Reſiſtance</hi> grew
+upon the
+<pb n="10" facs="tcp:100995:9"/>ſtock of our <hi>ill nature,</hi> and the <hi>perverſeneſs</hi> of our
+hu<g ref="char:EOLhyphen"/>mours, and every <hi>little</hi> occaſion was fewel to the fire that was kindled in the
+diſtempered body; Then it was the <hi>Government</hi> was invaded with <hi>malicious</hi>
+whiſpers, and <hi>Conventicle</hi> preachments, with <hi>Libels</hi> and <hi>invectives,</hi>
+with <hi>inſolencies</hi> and <hi>tumults;</hi> and when <hi>Sedition</hi> ſtrengthened it
+ſelf by <hi>noiſe</hi> and <hi>num<g ref="char:EOLhyphen"/>bers,</hi> and by <hi>popular zeal,</hi> and talk of
+<hi>Reformation,</hi> it brake out into the higheſt irreverencies againſt the <hi>King</hi> of
+ever bleſſed memory, and the moſt violent proceedings towards his Miniſters; to the end,
+that the <hi>neareſt trees</hi> being removed, they might have a <hi>full</hi> ſtroak at the
+<hi>Cedar.</hi> Nor did things ſtop here, but <hi>ſparks</hi> grew into mighty <hi>flames,</hi>
+and ſmall vapours into Thunders and Tempeſts: murmurings paſt into the noiſe of a Camp, and
+the clamours of the ſtreet came to be proclaimed by the found of a Trumpet: the Cloud like a hand
+quickly overſpread the Hea<g ref="char:EOLhyphen"/>vens, and our <hi>new lights</hi> ſet us all on fire. The
+<hi>Pul<g ref="char:EOLhyphen"/>pit</hi> ſounded as much war as the <hi>Drum,</hi> and the <hi>Preacher</hi> ſpit as
+much fire as the <hi>Cannon: Curſe ye Meroz</hi> was the <hi>Text,</hi> and bloud and plunder the
+<hi>Comment</hi> and the <hi>
+                  <g ref="char:V">Ʋ</g>ſe;</hi> Thus began our happy <hi>Reformation,</hi> and proceeded
+from <hi>Law</hi> to <hi>Licentiouſneſs,</hi> from <hi>Religion</hi> to <hi>Phrenſie;</hi>
+from an <hi>happy</hi> Government to a <hi>wretched</hi> hurry and confuſion, and the
+<hi>progreſs</hi> and the <hi>end</hi> were ſutable to theſe beginnings. <hi>God</hi> was
+worſhipped with the <hi>Devils</hi> ſacrifices, humane bloud and ſlaugh<g ref="char:EOLhyphen"/>ter; and glorified by
+being <hi>affronted</hi> in his authority and laws. The <hi>King</hi> was <hi>honoured</hi> by the
+perſecu<g ref="char:EOLhyphen"/>tion of his perſon, and murder of his friends; <hi>ſub<g ref="char:EOLhyphen"/>miſly</hi> addreſt to in
+the ſtile of the <hi>Rabble,</hi> and <hi>petitioned</hi> in humble form of <hi>Drums</hi> and
+<hi>Granadoes; welcomed</hi> at
+<pb n="11" facs="tcp:100995:9" rendition="simple:additions"/>his Cities by the <hi>ſhutting</hi> of their Gates, and
+<hi>enter<g ref="char:EOLhyphen"/>tained</hi> in the Country with the <hi>glittering</hi> of Swords and the
+<hi>noiſe</hi> of War; <hi>fought againſt</hi> for his <hi>defence,</hi> and his <hi>life</hi>
+fought for the <hi>preſervation</hi> of the King. Thus <hi>happy</hi> were our <hi>Reformers</hi>
+in the twiſting <hi>contra<g ref="char:EOLhyphen"/>dictions;</hi> and they would be ſo indeed, could they reconcile
+<hi>one</hi> more, <hi>viz.</hi> that they are the <hi>good people,</hi> and ſure heirs of
+heaven, becauſe that the <hi>Apoſtle</hi> ſaith, that <hi>they that Reſiſt, ſhall
+receive to themſelves Damnation.</hi>
+            </p>
+            <p>But we are not yet at the end of the line, the moſt fatal part of the ſtory is to come.
+Therefore after 10000 Butcheries and Devaſtations, miſeries and diſ<g ref="char:EOLhyphen"/>orders which cannot be
+<hi>deſcribed,</hi> but are always the <hi>events</hi> of a Civil war. Proſperous wickedneſs
+finally prevailed, the friends of <hi>Loyalty</hi> and <hi>Juſtice</hi> were ſcat<g ref="char:EOLhyphen"/>tered and
+deſtroyed: <hi>Majeſty</hi> is made a prey to the ſons of a Dunghil, and <hi>afflicted
+innocency</hi> falls into the hands of the hunters: and after he had been in<g ref="char:EOLhyphen"/>famouſly
+<hi>ſold</hi> like a ſlave, and <hi>impriſoned</hi> like a vile malefactor; after that he had
+been <hi>raviſhed</hi> from his friends, <hi>blaſphem'd</hi> in his name, and <hi>robbed</hi>
+of the En<g ref="char:EOLhyphen"/>ſigns of his dignity: after he had been <hi>toſt</hi> up and down from one place to
+another, according as the <hi>de<g ref="char:EOLhyphen"/>ſigns</hi> and <hi>inſolencies</hi> of his cruel Jaylors
+ſhould call him: after he had been <hi>mock'd</hi> by conditions of peace and terms of
+accommodation that were never meant; after that he had made <hi>conceſſions</hi> to all their
+demands, and for the ſake of <hi>peace</hi> and ſettlement of his <hi>King<g ref="char:EOLhyphen"/>doms,</hi> had
+granted things that <hi>Subjects</hi> had never the inſolence to ask: after theſe, and 1000
+inſtances of barbariſm and indignities more, that his <hi>cruel Perſe<g ref="char:EOLhyphen"/>cutors</hi> might
+tranſcend all examples of wickedneſs,
+<pb n="12" facs="tcp:100995:10"/>that generations to come might honour them, as they did the <hi>High Court of
+Juſtice</hi> whereof <hi>Pontius Pilate</hi> was <hi>Preſident;</hi> and that they might
+deſerve a <hi>deeper damnation</hi> than that threatned to <hi>bare Reſiſters,</hi> they
+ſummon their <hi>Soveraign</hi> to their <hi>Barr,</hi> and <hi>Try him</hi> by a company of
+petty fellows that called themſelves by a <hi>great name:</hi> they buffet him with their
+inſolent taunts, and bait him with the mercenary noiſe of <hi>Juſtice;</hi> like <hi>Crucifie
+him:</hi> they <hi>upbraid him</hi> with their <hi>own</hi> faults, and <hi>charge him</hi> with
+the <hi>guilt</hi> of that bloud which <hi>themſelves</hi> had ſpilt: that they might add the
+guilt of <hi>his</hi> to all the reſt. Which <hi>black Treaſon</hi> not to be thought on
+with<g ref="char:EOLhyphen"/>out <hi>horrour,</hi> nor named without a <hi>tear,</hi> they then ac<g ref="char:EOLhyphen"/>compliſht beyond any
+<hi>Precedent</hi> of former times, and perhaps belief of the future: contrary to their
+<hi>Allegi<g ref="char:EOLhyphen"/>ance</hi> and their duty to <hi>God,</hi> and their <hi>profeſſion</hi> to the
+<hi>people,</hi> to the obligation of <hi>Laws</hi> and <hi>common Right.</hi>
+            </p>
+            <p>Therefore let the <hi>blackeſt grief</hi> be upon the remem<g ref="char:EOLhyphen"/>brance of theſe works of
+Darkneſs, becauſe, thus fell a <hi>Prince;</hi> one of the <hi>beſt,</hi> the
+<hi>wiſeſt,</hi> and moſt <hi>generous,</hi> and the moſt <hi>gracious</hi> that ever
+ſwayed theſe Scepters; he <hi>fell,</hi> and fell by <hi>violence,</hi> and the violent hands
+of his <hi>own,</hi> who ought to have ſacrificed <hi>their</hi> lives to the preſervation of
+<hi>his:</hi> He fell to the <hi>diſhonour</hi> of God, to the <hi>grief</hi> of good men, to the
+<hi>ſcandal</hi> of Re<g ref="char:EOLhyphen"/>ligion, to the <hi>ſhame</hi> of Proteſtantiſm, to the
+<hi>overthrow</hi> of Government, and <hi>ruine</hi> of the Nation. This is a Lamentation, and to
+all generations ſhall be for a Lamentation: But O heavens, O Providence, muſt virtue be
+dethron'd, and villany be crown'd? muſt <hi>victory</hi> and <hi>ſucceſs</hi> wait on
+Treaſon and Parricide, while <hi>infamy</hi> dogs innocence to the grave? muſt the <hi>moſt
+righteous</hi> of Princes be the moſt <hi>miſerable</hi> of men?
+<pb n="13" facs="tcp:100995:10" rendition="simple:additions"/>and <hi>Religion</hi> and a <hi>good cauſe</hi> be the only way to be
+unfortunate and undone? will the ſearcher of hearts abet <hi>Hypocrites,</hi> and
+<hi>Providence</hi> ſuffer it ſelf to be made an argument to legitimate <hi>Rebellion?</hi>
+ſhall the <hi>Phari<g ref="char:EOLhyphen"/>ſee</hi> pray and proſper, and the <hi>righteous</hi> cry and be
+for<g ref="char:EOLhyphen"/>ſaken? ſhall <hi>Treaſon</hi> carry Religion in Triumph upon its gilded banners; and
+ſhall the <hi>wicked</hi> lift up their hands in an appeal to heaven, and bring them down to the
+deſtruction of the Juſt? ſhall <hi>villany</hi> raiſe its head to the clouds and meet no
+thunderbolts there; while the <hi>devotions</hi> of the innocent return upon him in ſtorms and
+flames? Thus <hi>Senſe</hi> and <hi>Nature</hi> would complain on this occaſion. But
+<hi>Providenoe</hi> is Juſt, though we are blind, proſperous villany crows and triumphs for a
+<hi>moment,</hi> but is covered with ſhame and perpetual darkneſs in the <hi>iſſue,</hi>
+the <hi>end</hi> of things will diſintangle Providence, and rectifie all diſorders: then
+ſhall we ſee that <hi>afflicted virtue</hi> ſhoots up on the other ſide the grave, and
+ſends its branches into a flowing Paradiſe, where they ſhall be green and ver<g ref="char:EOLhyphen"/>dant in an
+<hi>eternal</hi> Spring; while every tree that vir<g ref="char:EOLhyphen"/>tue hath not planted, ſhall be <hi>rooted</hi>
+up and wither in a moment. This I thought fit to ſuggeſt as an Apo<g ref="char:EOLhyphen"/>logy for Providence, leſt
+the ſucceſſes of the wicked and misfortunes of the Juſt in inſtances ſo great and near
+might be Atheiſtically abuſed. Thus I am ar<g ref="char:EOLhyphen"/>rived at the <hi>firſt</hi> period of the
+miſeries the nation was then brought into by <hi>Reſiſtance,</hi> which concluded in the
+<hi>ruine</hi> and deſolation of Government; and this run into all the miſchiefs to which
+humane nature is obnoxious. For <hi>Government</hi> is the great <hi>intereſt</hi> of mankind;
+that which bounds our Paſſions, and ſe<g ref="char:EOLhyphen"/>cures our Rights; prevents confuſion and that deluge
+
+<pb n="14" facs="tcp:100995:11"/>of debauches that <hi>Anarchy</hi> lets in upon the <hi>world.</hi> And how far
+we felt this would be conſidered.</p>
+            <p>When the Nation then had loſt its <hi>Head</hi> and its <hi>Glory,</hi> 'twas turned with its
+heels upwards, and go<g ref="char:EOLhyphen"/>verned by a thing as Infamous in its quality as its name; the <hi>dregs</hi>
+of the Populacy, the <hi>creatures</hi> of a Sectarian Army, the <hi>worſt part</hi> of a body
+that was bad enough in its <hi>beſt:</hi> theſe were our <hi>Senators</hi> and our
+<hi>Patriots;</hi> the <hi>Preſervers</hi> of our <hi>peace,</hi> and the <hi>Keepers</hi> of our
+<hi>liberties:</hi> and keep them they did, but not <hi>for us</hi> but <hi>from us;</hi> and was
+not this a <hi>liberty</hi> worth the bloud and treaſure that was ſpent to purchaſe it: O the
+bleſſed Reformation that <hi>filled</hi> the Pulpit and <hi>emptied</hi> our Purſes! that
+<hi>quickned</hi> our endeavours and <hi>inſpired</hi> our zeal! and that was ſo
+<hi>glorious</hi> in our mouths and ſo <hi>pleaſant</hi> in our hopes! were not all
+<hi>miſ<g ref="char:EOLhyphen"/>carriages</hi> in Government well mended, when Govern<g ref="char:EOLhyphen"/>ment was <hi>thrown up</hi> by the
+roots? and was not the diſeaſe well cured, when the body was <hi>deſtroy'd?</hi> were we not
+well <hi>freed</hi> from evil Counſellors, when we made Kings of the <hi>worſt</hi> we had? and
+was not Ty<g ref="char:EOLhyphen"/>ranny well <hi>extirpated,</hi> when we were under an <hi>Army of Tyrants?</hi> But the
+Glorious things are to come, and we muſt be caſt into <hi>new models;</hi> and when the birds
+of prey have divided the ſpoil, and ſatisfied the cra<g ref="char:EOLhyphen"/>vings of their <hi>appetites</hi> and
+<hi>ambition,</hi> the nation ſhall be made <hi>happy</hi> with new nothings, and golden
+moun<g ref="char:EOLhyphen"/>tains, with <hi>Chimera</hi>'s of <hi>Common-wealths,</hi> and fine names for
+<hi>ſlavery.</hi> In the mean time <hi>Loyalty</hi> muſt be ſcourged with the Scorpions that
+are due to <hi>Rebellion.</hi> And they that feared the damnation of the <hi>Apoſtle,</hi>
+ſhall be ſure to incur the damnation of the <hi>Reformers.</hi> And they that would not hazard
+their <hi>ſouls,</hi> muſt com<g ref="char:EOLhyphen"/>pound
+<pb n="15" facs="tcp:100995:11" rendition="simple:additions"/>for their <hi>Eſtates.</hi> But when the Juncto had run to the
+<hi>end</hi> of their line, 1. as far as their <hi>Maſter</hi> would permit them, when they were
+as odious as they deſerved, and his deſigns as <hi>ripe</hi> as he could wiſh; then up
+ſteps the <hi>ſingle Tyrant,</hi> kicks them out of their ſeats, and <hi>Belzebub</hi>
+diſpoſſeſſeth the Legion. He en<g ref="char:EOLhyphen"/>groſſeth the prey to <hi>himſelf,</hi> and
+aſſumes the <hi>ſole</hi> pri<g ref="char:EOLhyphen"/>viledge of compleating our miſeries. <hi>He</hi> made
+him<g ref="char:EOLhyphen"/>ſelf after the Image of a <hi>King,</hi> and inveſted his Sword with the Authority of
+<hi>Law;</hi> he <hi>ruled</hi> us with the rod of Iron we deſerved, and made us <hi>feel</hi>
+the difference between the <hi>ſilken reins</hi> of a Lawful Authority, and the <hi>heavy
+yoke</hi> of an inſolent uſurpation: and when <hi>Providence</hi> had freed us from this
+plague, and call'd him to an account for his <hi>villanies,</hi> we fell back into our <hi>old
+diſorders;</hi> we reel'd to and fro, and ſtagger'd like a drunken man, and were at our wits
+end: we knew not <hi>this week</hi> who would be our Lords the <hi>next,</hi> nor did our Lords
+themſelves know to <hi>day,</hi> by what laws they would rule to <hi>morrow. Confuſion</hi> was
+in their Councils, as well as <hi>Tyranny</hi> in their actions; and there was but <hi>one</hi>
+thing they ſeemed to be agreed upon, which was to
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the nation; and if we would not believe that this
+was <hi>Liberty,</hi> we muſt be knock'd on the head with our <hi>Chains;</hi> if the Sheep would
+not take <hi>Wolves</hi> for their Guardians, 'twas fault enough, and good reaſon why they
+ſhould be <hi>devour'd.</hi> And were not things come at length to a pretty paſs, when men in
+Buff durſt proclaim themſelves the only <hi>Legal Authority</hi> of the <hi>Nation;</hi> when
+our armed Ma<g ref="char:EOLhyphen"/>ſters murdered men in the ſtreets, and threatned the <hi>antient Metropolis</hi>
+of the Nation, with Gun-powder and Granadoes: <hi>Fire</hi> and <hi>Sword</hi> muſt be our
+portion
+<pb n="16" facs="tcp:100995:12"/>if we would not be in love with <hi>infamous <g ref="char:V">Ʋ</g>ſurpers;</hi> and a worſe
+Powder-plot than <hi>Fauxe's</hi> was acting in the face of the <hi>Sun:</hi> The Strength, Riches,
+Beauty, the almoſt all of the nation was <hi>deſigned</hi> for a <hi>Sacrifice</hi> to the rage
+and revenge of our <hi>oppoſers;</hi> and <hi>Plunders</hi> and <hi>Maſſacres</hi> were even
+the leaſt evils we feared: thus were we toſt up and down from <hi>one</hi> war to
+<hi>an<g ref="char:EOLhyphen"/>other,</hi> and made the ſport of the <hi>proud</hi> and inſulting <hi>billows,</hi>
+till <hi>Almighty goodneſs</hi> ſetled us again on our <hi>old</hi> baſis, and by a miracle
+of Providence reſtor'd us our <hi>Prince</hi> and our <hi>Government,</hi> which our ſins had
+de<g ref="char:EOLhyphen"/>prived us of; to re-eſtabliſh us on the ſure foundations of <hi>Righteouſneſs</hi> and
+<hi>Peace;</hi> theſe are ſome ſprinklings of that deluge of <hi>woe</hi> that we brought on
+our ſelves by <hi>reſiſtance,</hi> which I have briefly deſcrib'd to this pur<g ref="char:EOLhyphen"/>poſe, that
+the remembrance of theſe miſeries may be<g ref="char:EOLhyphen"/>get a <hi>ſenſe</hi> of the <hi>greatneſs</hi>
+of the ſin of <hi>Rebellion,</hi> and the truth of the particular propoſition I have been
+diſcourſing under this head, that <hi>Reſiſtance</hi> is fatal to <hi>Government,</hi> and
+draws temporal and eternal ſhame and confuſion on the <hi>Reſiſters.</hi>
+            </p>
+            <p>And though Government may be <hi>fixt</hi> again upon its foundations, and Laws turned into
+their <hi>Antient Channel</hi> after the violence they have ſuffer'd, yet they loſe much of
+their <hi>reverence</hi> and <hi>ſtrength</hi> by ſuch diſ-ſettlements, and the people that
+have Rebelled <hi>once,</hi> and ſucceſsfully, will be ready to do ſo <hi>often:</hi> as
+water that hath been boil'd will boil again the ſooner.</p>
+            <p>Secondly, <hi>Reſiſtance</hi> is <hi>Ruinous</hi> and <hi>deſtructive</hi> to Religion;
+for its <hi>contrary</hi> to the Spirit of Religion, and therefore <hi>deſtructive</hi> of its
+being, for enemies de<g ref="char:EOLhyphen"/>ſtroy one another. <hi>Rebellion</hi> lays the Reins on mens necks, and
+takes off the reſtraints of their appetites;
+<pb n="17" facs="tcp:100995:12" rendition="simple:additions"/>it opens the floudgates of impiety, and lets looſe the brats of
+extravagant imagination, it deſtroys the re<g ref="char:EOLhyphen"/>verence of all things ſacred, and drives virtue to
+cor<g ref="char:EOLhyphen"/>ners. Religion can't be heard in the noiſe of battle, but is trampled under foot in the hurry
+&amp; the tumult; Faith and Love, Humility and Meekneſs, Purity and Peace, are overcaſt and
+ſilenced by Atheiſm and Cru<g ref="char:EOLhyphen"/>elty, Pride and Barbariſm, Luſt and Revenge. Thus
+<hi>Rebellion</hi> by breaking up the foundations of the earth lets in a <hi>hell</hi> upon us, and
+brings in a kind of <hi>preſent</hi> damnation on the world; and that this is another fatal
+miſchief of <hi>Reſiſtance,</hi> we have felt alſo by an experi<g ref="char:EOLhyphen"/>ence that will keep it in
+our memories what execu<g ref="char:EOLhyphen"/>tion it hath done on Religion.</p>
+            <p>But now this is a <hi>tender</hi> thing, and I am willing to keep my ſelf within bounds that
+are <hi>charitable</hi> and <hi>ſober,</hi> and therefore muſt premiſe what I have to ſay
+about it; that I charge not the whole body of the people of <hi>thoſe</hi> times with the guilt
+of <hi>all</hi> the follies and corruptions I deſcribe. I profeſs <hi>univerſal</hi>
+Cha<g ref="char:EOLhyphen"/>rity, and have perhaps <hi>more</hi> for the <hi>worſt</hi> of them, than <hi>they</hi>
+generally will own for <hi>any</hi> that are not of their <hi>own</hi> party or opinion. Therefore
+at preſent I ſhall ſay no more than what the <hi>ſober</hi> and <hi>intelligent</hi> among
+themſelves will acknowledge to be <hi>juſtly</hi> chargeable upon <hi>ſome</hi> or
+<hi>other</hi> of the Sects bred by thoſe diſor<g ref="char:EOLhyphen"/>ders: And this will be enough for my purpoſe,
+which is only to prove by near and deplorable inſtan<g ref="char:EOLhyphen"/>ces, that <hi>Reſiſtance</hi> brings
+miſchiefs on <hi>Religion,</hi> and not to expoſe to hatred or contempt the <hi>perſons</hi>
+of any that are <hi>ſerious</hi> in the way of their profeſſion, though I judg it never ſo
+<hi>obnoxious</hi> and <hi>miſtaken.</hi> And having ſaid this out of a <hi>tender
+Charity,</hi> that none
+<pb n="18" facs="tcp:100995:13"/>may be wronged by <hi>miſinterpretation,</hi> nor any <hi>offend<g ref="char:EOLhyphen"/>ed</hi> that
+are not <hi>concern'd;</hi> I come with <hi>freedom</hi> to de<g ref="char:EOLhyphen"/>ſcribe ſome of the Injuries
+their unhappy <hi>Reſiſtance</hi> hath done <hi>Religion,</hi> notwithſtanding that both
+<hi>arms</hi> and <hi>tongues</hi> ſo highly pretended its <hi>defence.</hi> And in<g ref="char:EOLhyphen"/>deed men
+fought <hi>for Religion</hi> till they had <hi>deſtroyed</hi> it; and <hi>diſputed about
+it</hi> till they had <hi>loſt it. Multi<g ref="char:EOLhyphen"/>plicity</hi> of <hi>Opinions</hi> had quite confounded
+the <hi>Simpli<g ref="char:EOLhyphen"/>city</hi> of <hi>Life</hi> and <hi>Faith;</hi> and 'twas moſt peoples
+buſi<g ref="char:EOLhyphen"/>neſs to <hi>chatter</hi> like <hi>Pyes,</hi> rather than to live like
+<hi>Chri<g ref="char:EOLhyphen"/>ſtians,</hi> or like <hi>men:</hi> as if <hi>Religion</hi> had been computed by mens
+<hi>talk</hi> and <hi>diſputes</hi> about it, and thoſe <hi>latter</hi> days of the
+<hi>declining</hi> world had been its <hi>beſt,</hi> and this in its <hi>growth</hi> and ways of
+<hi>higheſt improvement,</hi> when all things <hi>elſe</hi> were verging to their <hi>fatal
+fall</hi> and <hi>pe<g ref="char:EOLhyphen"/>riod.</hi> But alas, the <hi>Tongue</hi> was the <hi>moſt,</hi> if not the
+<hi>only Religious member:</hi> and many of the <hi>Pretenders,</hi> like the <hi>Aegyptian
+Temples,</hi> were fair without, but Beaſts and Serpents and Crocodiles within; or like the Bird
+of Paradiſe, they had wings to <hi>flye</hi> in the clouds of <hi>Imagination,</hi> but no feet
+to <hi>walk</hi> on the ground of a virtuous <hi>practice.</hi> Yea, <hi>ſome</hi> had found the
+way to ſwim to heaven in the current of their <hi>appetites,</hi> and to reconcile
+<hi>Covetouſneſs, Rapine, Cruel<g ref="char:EOLhyphen"/>ty,</hi> and <hi>Spiritual pride;</hi> to the glorious virtues
+of the <hi>Elect,</hi> the <hi>people of God,</hi> the <hi>choſen of Chriſt,</hi> and the
+<hi>good party. Religion</hi> with <hi>Rebellion,</hi> and <hi>Sacriledge</hi> with
+<hi>Saintſhip;</hi> theſe had learnt to be <hi>godly</hi> without <hi>goodneſs,</hi> and
+<hi>Chriſtians</hi> without <hi>Chriſtianity;</hi> theſe were lovers of <hi>God,</hi> yet
+were haters of their <hi>Brother:</hi> haters of open <hi>prophaneneſs,</hi> but not of
+<hi>Spiritual wickedneſs:</hi> very pious, though <hi>cruel</hi> and <hi>unjuſt:</hi> true
+penitents, though they returned to their <hi>ſins</hi> as ſoon
+<pb n="19" facs="tcp:100995:13" rendition="simple:additions"/>as they had complained and wept: their hearts were <hi>good,</hi> though
+their actions were <hi>diſhoneſt:</hi> and they had the <hi>root</hi> of the matter in them,
+though that <hi>root</hi> were a <hi>dry ſtump,</hi> and had no <hi>branches:</hi> they were
+<hi>regenerated,</hi> but not <hi>reformed:</hi> converted, but not a jot the <hi>better:</hi>
+devout hearers, but <hi>bad</hi> neighbours: lovers of <hi>God,</hi> but no haters of
+<hi>Covetouſneſs:</hi> had <hi>power</hi> in heaven, but none over <hi>themſelves:</hi> they
+were <hi>Gods</hi> ſervants, though they obeyed their <hi>appetites,</hi> and his
+<hi>children,</hi> though no better than thoſe that they ac<g ref="char:EOLhyphen"/>counted of <hi>their</hi> father the
+<hi>Devil.</hi>
+            </p>
+            <p>Thus had men got the knack to be <hi>Religious,</hi> with<g ref="char:EOLhyphen"/>out <hi>Religion;</hi> and were in the
+way to be <hi>ſacred</hi> with<g ref="char:EOLhyphen"/>out <hi>Salvation.</hi> This was one of the groſſeſt
+abuſes of <hi>Religion,</hi> that thoſe <hi>diſorders</hi> brought upon us: whereby it was
+taken from its foundation of virtue and holy living, and placed in emotions, raptures and
+ſwelling words of vanity: and when theſe had kin<g ref="char:EOLhyphen"/>dled the Imagination, and ſent the Phancy
+into the clouds to flutter there in myſtical nonſenſe; and when 'twas mounted on the wings of
+the wind, and got into the <hi>Revelations</hi> to looſe the <hi>Seals;</hi> pour out the Vialls,
+and fantaſtically to interpret the falls of Kingdoms: when it flew into the Tongue in an
+ex<g ref="char:EOLhyphen"/>travagant <hi>Rabble,</hi> and abuſed the name and word of God, mingling it with <hi>canting
+unintelligible babble:</hi> when the diſeaſed and diſturbed fancy thus variouſly
+diſplayed itſelf, many made themſelves believe, that they were acted by the <hi>Spirit;</hi>
+&amp; that thoſe wild agitati<g ref="char:EOLhyphen"/>ons of ſick imaginations were divine motions: &amp; when this
+fire was deſcended from the Fancy to the Affecti<g ref="char:EOLhyphen"/>ons, and theſe being exceedingly moved by
+thoſe vain and proud conceits, cauſed Tremblings and Foam<g ref="char:EOLhyphen"/>ings,
+<pb n="20" facs="tcp:100995:14"/>Convulſions and Ecſtaſies in the body (all which are but natural
+diſeaſes, if not worſe, and juſt like thoſe odd ecſtatical motions of the <hi>Devils
+Prieſts</hi> when they come foaming from his <hi>Altars</hi>) theſe the wild
+<hi>Phantaſticks</hi> had learn'd to aſcribe to the <hi>bleſſed</hi> and <hi>Adorable
+Spirit:</hi> and when their Fancies being full of rugged notions, and their bodies in an
+ecſtaſie, they dream'd of ſtrange ſights, voices, and wonder<g ref="char:EOLhyphen"/>ful diſcoveries, which were
+nothing but the unquiet agitations of their own diſordered brains: theſe alſo were taken for
+<hi>divine Revelations,</hi> and the effects of the <hi>Spirit</hi> of <hi>God,</hi> ſhewing
+itſelf miraculouſly in them. Briefly, and in ſumm; Every humour and phantaſtick
+unaccountable motion was by ſome repreſented as the <hi>work</hi> of that <hi>Spirit,</hi> to
+which they are moſt <hi>oppoſite.</hi> Thus when warm and brisk ſanguine thoughts
+pre<g ref="char:EOLhyphen"/>ſented a chearful Scene, and fill'd the <hi>Imagination</hi> with pleaſant <hi>dreams,</hi>
+theſe were <hi>divine illapſes,</hi> the Joyes and Incomes of the <hi>Holy Ghoſt;</hi> when
+heated melan<g ref="char:EOLhyphen"/>lancholy had kindled the <hi>buſie</hi> and active <hi>fancy,</hi> the
+<hi>Enthuſiaſt</hi> talks of <hi>Illuminations,</hi> new <hi>lights, Revela<g ref="char:EOLhyphen"/>tions,</hi> and
+many wonderful fine things, all aſcrib'd to the ſame <hi>Spirit:</hi> when <hi>phlegm</hi>
+prevail'd, &amp; had quencht the fantaſtick fire, rendring the <hi>mad-man</hi> more
+<hi>dull</hi> and <hi>in active;</hi> then the <hi>Spirit</hi> was withdrawn, and the man under
+<hi>ſpiritual</hi> darkneſs and deſertion: when again, <hi>choler</hi> was blown up into rage
+and fury againſt every thing which was not of the fond <hi>cut</hi> and <hi>mea<g ref="char:EOLhyphen"/>ſure:</hi> This
+alſo was preſumed to be a <hi>fervour</hi> kindled by that <hi>Spirit,</hi> whoſe real fruits
+are <hi>gentleneſs</hi> and <hi>Love;</hi> yet none here, I hope, will be ſo uncharitable and
+un<g ref="char:EOLhyphen"/>juſt as to think I go about to diſparage the <hi>Spirit</hi> of <hi>God</hi> and its
+<hi>Influence,</hi> which as I ought, I adore and
+<pb n="21" facs="tcp:100995:14"/>reverence; therefore I think it fit to repreſent and ſhame the
+blaſphemous abuſes of it, which would ex<g ref="char:EOLhyphen"/>poſe the moſt <hi>divine</hi> things to ſcorn,
+and make them ridiculous: and that the <hi>bleſſed Spirit</hi> hath been thus traduc'd and
+injur'd, and is ſtill by great numbers among us, it would be ſhameful not to acknowledge, and
+therefore my zeal and reverence for the Realities makes me thus ſharp and ſevere to the
+Counterfeits. Nor do I think that folly and phantaſtry is to be <hi>ſpared,</hi> becauſe they
+wear the <hi>ſtoln Livery</hi> of things Venerable and Sacred: Therefore to go on, this was a
+kind of <hi>Religion</hi> that the corruption of it bred among us, a <hi>Religion</hi> conceived in
+the Imagination, and begot by <hi>Pride</hi> and <hi>Self-love,</hi> which gilded the
+<hi>profeſſion</hi> of it with all the <hi>glorious</hi> names and priviledges of the
+<hi>Goſpel;</hi> and when they had encircled their heads with their own phantaſtick rayes, and
+ſwoln their Imagi<g ref="char:EOLhyphen"/>nations into a <hi>Tympany</hi> of ridiculous greatneſs, they ſcornfully
+contemned <hi>all</hi> but their darling ſelves, under the notion of the <hi>formal,</hi> the
+<hi>moral,</hi> and the <hi>wicked;</hi> and proudly pitied the poor and carnal world, <hi>viz.
+all</hi> that were not of their conceited pitch and ele<g ref="char:EOLhyphen"/>vation. And having thus dignified
+themſelves, and de<g ref="char:EOLhyphen"/>baſed others, they herded together, drew the <hi>Church</hi> into their
+little corners, and withdrew from the <hi>Com<g ref="char:EOLhyphen"/>munion</hi> of others, who had leſs conceit though
+more <hi>Chriſtianity;</hi> they bid us ſtand off, leſt we ſhould have polluted them by our
+unhallowed approaches; and having made us as the <hi>Heathen</hi> and the <hi>Publican,</hi> they
+cryed, <hi>Come out</hi> from among them. The True <hi>Church, ſoundneſs</hi> of <hi>Judgment,
+purity</hi> of <hi>Doctrine</hi> and of <hi>worſhip</hi> (if men would believe them) was confined
+to their <hi>Gang,</hi> juſt as they were to the corners of
+<pb n="22" facs="tcp:100995:15"/>
+               <hi>Aſrica</hi> of old, when their friends the <hi>Donatiſts</hi> were
+there; thus did they ſwell and ſwagger in their <hi>Ima<g ref="char:EOLhyphen"/>ginations,</hi> till ſome other Sect
+as well conceited as themſelves endeavoured to take their <hi>plumes</hi> from them and to
+appropriate their <hi>glorious prerogatives</hi> to their own party; and then they buſtled and
+contended: Here's the <hi>Church,</hi> ſaith one; nay but 'tis here cry'd an<g ref="char:EOLhyphen"/>other, till a
+<hi>third</hi> gave a <hi>Lye</hi> to them both; and then the ſcuffle grows warm of
+<hi>pride</hi> againſt <hi>hypocriſie,</hi> the <hi>ſelf-conceit</hi> of <hi>one Sect</hi>
+againſt the <hi>pride</hi> of <hi>another,</hi> and <hi>all</hi> againſt <hi>ſobriety</hi>
+and <hi>truth.</hi> This among ſome was the <hi>power</hi> of <hi>godlineſs,</hi> this the
+<hi>ſpirituality</hi> of <hi>Religion,</hi> under pretence of which all reverence to things
+Sa<g ref="char:EOLhyphen"/>cred was deſtroy'd; for when this <hi>Spirit</hi> was got into the <hi>Pulpit,</hi> and ſet
+up the cry of the <hi>purity</hi> &amp; <hi>ſpirituality</hi> of <hi>Worſhip,</hi> it never
+left Canting on the <hi>Subject</hi> till mens tongues and minds were fired againſt every mat<g ref="char:EOLhyphen"/>ter
+of <hi>decency</hi> and <hi>order,</hi> as formal and Antichriſtian. And ſo far had it
+prevail'd, as to drive thoſe of warm <hi>affections</hi> and weak heads, from all due
+<hi>external reve<g ref="char:EOLhyphen"/>rence</hi> to <hi>God</hi> and all <hi>holy things:</hi> and theſe
+well-mean<g ref="char:EOLhyphen"/>ing people being frighted with the terrible noiſe of <hi>Popery, Superſtition,</hi>
+and <hi>Antichriſtianiſm</hi> (things they had learn'd to hate, but not to underſtand)
+boggled and flew off from every thing their <hi>furious guides</hi> had mark'd with theſe
+<hi>abhorred characters,</hi> though it were never ſo <hi>innocent</hi> and becoming. And thus a
+rude and ſlovenly <hi>Religion</hi> made its way into the world, and ſuch a ſordid
+careleſneſs in matters of <hi>Divine wor<g ref="char:EOLhyphen"/>ſhip,</hi> that ſhould a ſtranger have come into
+the <hi>Aſſem<g ref="char:EOLhyphen"/>blies</hi> that were acted by this <hi>Spirit,</hi> he would not have imagined
+what they had been <hi>doing;</hi> and that they were about <hi>holy offices</hi> would perhaps
+have been one
+<pb n="23" facs="tcp:100995:15"/>of the laſt things in his conjecture. Thus bold and ſaucy talk crept into
+mens <hi>prayers,</hi> under pretence of holy familiarity with <hi>God;</hi> nauſeous impertinent
+<hi>gib<g ref="char:EOLhyphen"/>beriſh,</hi> under the notion of <hi>praying</hi> by the <hi>Spirit;</hi> and all kind of
+irreverences in <hi>external demeanour,</hi> under the ſhelter of a pretended <hi>ſupernatural
+worſhip.</hi> Thus had men ſubtilized <hi>Religion</hi> till they had <hi>deſtroyed</hi> it,
+made it firſt <hi>inviſible,</hi> and then nothing.</p>
+            <p>And now to gather up all, <hi>Religion</hi> being thus mul<g ref="char:EOLhyphen"/>tiplied, corrupted and debauched,
+being made the <hi>game</hi> of the Tongue, and the <hi>frolick</hi> of Imagination;
+<hi>phantaſtick</hi> in its Principles, <hi>ſordid</hi> in its Practices; <hi>ſeparated</hi>
+from the form of a virtuous life, and made to ſerve the <hi>ends</hi> of Pride and Avarice; what
+was like to follow, according to the nature and order of things, but <hi>Atheiſm</hi> and
+<hi>contempt</hi> of all <hi>Religion?</hi> and when one ſaith, <hi>Here's Religion,</hi> and
+another, <hi>There</hi>'s <hi>Religion,</hi> and a third will certainly ask, <hi>Where</hi>'s
+<hi>Reli<g ref="char:EOLhyphen"/>gion,</hi> and <hi>what</hi>'s <hi>Religion.</hi> When the heathen deities were ſo
+multiplied that every thing was made a <hi>God, Protag. Diag.</hi> and others firſt began to
+queſtion, and next to affirm that there was none. <hi>Religions</hi> have been
+<hi>multiplied</hi> in our days, as much as <hi>gods</hi> in theirs; and we have ſeen much of the
+ſame fatal event and iſſue; they made their <hi>gods</hi> contemptible and vile by deifying
+things that were ſo, and we had no leſs de<g ref="char:EOLhyphen"/>tracted from the credit of <hi>Religion</hi> by
+bringing it down to things of the loweſt and vileſt rank and na<g ref="char:EOLhyphen"/>ture; our <hi>Idolized</hi>
+opinions were no <hi>better</hi> than their <hi>Garlick</hi> and <hi>Onions;</hi> the
+<hi>diſeaſes</hi> of the <hi>mind, phrenſie</hi> and <hi>Enthuſiaſm,</hi> which our days
+have <hi>worſhipped,</hi> were no better than thoſe of the body which they adored, and they
+never raiſed <hi>Altar</hi> to worſe vices than <hi>Rebel<g ref="char:EOLhyphen"/>lion,
+<pb n="24" facs="tcp:100995:16"/>fraud</hi> and <hi>violence,</hi> which our <hi>age</hi> hath hallowed and made
+Sacred, and that notwithſtanding all the <hi>glorious pretenſions</hi> of thoſe times,
+<hi>Religion</hi> was among many taken off all its foundations, and the world pre<g ref="char:EOLhyphen"/>pared for
+<hi>Atheiſm.</hi> The follies and diviſions of one Age, make way for <hi>Atheiſm</hi> in the
+next. Thus alſo briefly of the condition of our <hi>Religion.</hi>
+            </p>
+            <p>And thus I have ſhewn how much <hi>Reſiſtance</hi> of the <hi>Authority</hi> that is over
+us is againſt our <hi>Duty</hi> and our <hi>Intereſt,</hi> the <hi>former</hi> God hath plainly
+told us, and the <hi>latter</hi> we have ſadly felt: It remains now, that I add a word or two to
+the preſent occaſion and ſo conclude. And have theſe very men, and this very Faction, drawn
+the Sword of <hi>Rebellion</hi> upon the ſame pretences, fears and jealouſies of
+<hi>Popery,</hi> and a Reformation in mat<g ref="char:EOLhyphen"/>ters of <hi>Religion,</hi> and to fight for the
+<hi>Proteſtant Religion?</hi> What! <hi>fight</hi> for what we already enjoy, and bleſſed be
+God, in all its glorious priviledges, in its <hi>Doctrine</hi> and in its <hi>Diſcipline?</hi>
+Our Church doors ſtand wide open, and <hi>Aarons</hi> bells Ring all in: we enjoy it, and we
+ſhall enjoy it, we have the word of a King for it: and of ſuch a King whoſe veracity we may
+boaſt of to all nations in that he was never leſs than his word: and we have the word of God
+for it, who is <hi>King</hi> of <hi>Kings,</hi> who will never forſake that <hi>Church</hi> and
+<hi>People</hi> who are truly Loyal to him, and his <hi>Vice<g ref="char:EOLhyphen"/>gerent.</hi> Let your <hi>Courage</hi>
+then be anſwerable to the Juſtice of your <hi>Cauſe:</hi> with what heart can a
+<hi>Traite<g ref="char:EOLhyphen"/>rous Rebel</hi> appear in the Field, who dying without <hi>re<g ref="char:EOLhyphen"/>pentance</hi> ſinks
+immediately into <hi>eternal flames?</hi> when to thoſe that fight the Lord's <hi>battle</hi>
+(that is, for their <hi>King,</hi> their <hi>Lawful Soveraign</hi> who is his <hi>Viceroy,</hi> his
+<hi>Anointed,</hi> his <hi>Servant,</hi> as I have ſhewed you) Death
+<pb n="25" facs="tcp:100995:16"/>to them the harbinger of their happineſs, their ſouls winged with
+<hi>Loyalty</hi> and <hi>Obedience</hi> flye into the Arms of an <hi>infinite Mercy.</hi> God never
+ſtandeth Neu<g ref="char:EOLhyphen"/>ter, in every fight his Sword is drawn, and that <hi>Army</hi> is ſure to carry
+the <hi>victory</hi> wherein Heaven hath its <hi>Auxiliaries;</hi> if <hi>God</hi> be for us who
+can be againſt us? if <hi>Omnipotence</hi> lead the <hi>Van,</hi> victory muſt needs bring up
+the <hi>Rere.</hi> Let this then be your <hi>comfort</hi> and <hi>cauſe</hi> of
+<hi>rejoycing,</hi> that your <hi>cauſe</hi> is <hi>Gods cauſe;</hi> be not then diſmaid at
+their power and malice, but ſtand up againſt them with a <hi>good courage.</hi> For he that
+helpeth you is <hi>infinitely ſtronger</hi> than they; you fight under his Colours, his Banners,
+and ſhall enjoy his Protection, and not only eſcape the cruel darts of <hi>your
+adverſaries,</hi> but even <hi>tread them under your feet. The Lord will fight for us, we ſhall
+not go with haſt and diſorder againſt our enemies, nor fly from them,</hi> Iſa. 52.12.
+<hi>None ſhall ſtand againſt us and proſper, their ſecret Counſels ſhall be
+confounded, they ſhall fear us and fly from us, we ſhall chaſe them, five of you ſhall
+chaſe a hundred, an hundred of youſhall put ten thouſand to flight,</hi> Lev. 26.7, 8.
+<hi>The wicked fly when no man purſueth.</hi> And thus it is, that <hi>God</hi> entreth into a
+<hi>League</hi> Offenſive and Defenſive with his people. Let us then by our earneſt
+<hi>prayers</hi> for his Aſſiſtance, and our <hi>courage</hi> and undaunted
+<hi>reſolution</hi> in our <hi>Soveraigns</hi> cauſe ingage God in our <hi>Quarrel;</hi> that
+he may ſay to us, as <hi>Ruth</hi> did to <hi>Naomi,</hi> Whither thou goeſt I will go, and
+where thou lodgeſt I will lodge; Thy Armies ſhall be my Armies, and thy enemies ſhall be my
+enemies. When <hi>thou</hi> entreſt the Liſts with thine enemies, I will come down and be thy
+<hi>Second,</hi> when thou marcheſt
+<pb n="26" facs="tcp:100995:17"/>into the battle, I will be thy Captain General, I will make bare mine arm to
+<hi>ſave</hi> thee, and arm <hi>Omnipo<g ref="char:EOLhyphen"/>tence</hi> to ſuccour thee, I will arm my ſelf with
+<hi>Thun<g ref="char:EOLhyphen"/>derbolts</hi> of vengeance to diſcharge upon the heads of <hi>thine enemies;</hi> let us
+thus <hi>ingage God</hi> to become our <hi>Confederate,</hi> our <hi>friend</hi> and <hi>Ally;</hi>
+and then will all his <hi>Attributes</hi> be up in <hi>arms</hi> againſt them that fight
+againſt us; his <hi>All-ſufficiency</hi> that fed and clothed them, will ſtrip and ſtarve
+them; his <hi>Providence</hi> that was their Caterer ſhall turn their deſtroyer, and his
+<hi>Omnipotence</hi> their <hi>Life-guard</hi> become their Executioner; he will turn their
+wiſdom into folly, and their Courage into Cowardiſe: and thus will he diſmantle all
+bloud-guilty <hi>Rebels,</hi> and lay them open to the juſt fury and revenge of his friends, and
+their enemies; diſarming their <hi>Courage,</hi> and diſappointing their <hi>cunning,</hi> and
+making the ſtrong to turn their backs, or ſink down at the feet of his and their enemies;
+making their <hi>own</hi> Swords to paſs through their <hi>own</hi> bowels, that we may all joyn
+with the Kingly Prophet, <hi>Pſal.</hi> 3.6, 7. <hi>Ariſe, O Lord, ſave me O my God, for thou
+haſt ſmitten all mine enemies upon the Cheek-bone, thou haſt broken the teeth of the ungodly.
+I will not be afraid of ten thouſands of people that have ſet themſelves againſt me round
+about.</hi> And remember this, above all, that he abhors <hi>Neuters</hi> or indifferent perſons,
+<hi>my people ſhall come willingly:</hi> and our bleſſed Saviour ſaith, <hi>he that is not
+for us is againſt us.</hi> So that here's no room for a <hi>paſſive</hi> Loyalty, but only an
+<hi>active</hi> Obedience. When the flames of a <hi>civil war</hi> brake out in <hi>Rome,
+Pompey</hi> ſaid, that he would reckon <hi>Neuters</hi> and <hi>in<g ref="char:EOLhyphen"/>different</hi> men in the
+number of his enemies, and deal
+<pb n="27" facs="tcp:100995:17" rendition="simple:additions"/>with them accordingly. And thoſe that do not actually appear againſt
+the <hi>Rebels</hi> as well as they can, but wait to fall in with them if they prevail, are
+<hi>Re<g ref="char:EOLhyphen"/>bels</hi> already: They would think the Preacher rude, if he ſhould ſay they are not
+<hi>Chriſtians;</hi> when there are no more <hi>diſloyal Chriſtians</hi> in the world, than
+there are <hi>honeſt</hi> felons, or <hi>innocent</hi> murtherers. And is not this the very
+ſeaſon for every man that <hi>fears God</hi> and <hi>honours his King,</hi> to ſhew his
+<hi>readineſs</hi> and <hi>courage,</hi> his <hi>Loyalty</hi> and his <hi>Love</hi> to his
+<hi>Prince;</hi> (who is the care of heaven) and whom <hi>God long preſerve in peace and
+proſperity to Rule and to Reign over us, and ſtrengthen him that he may vanquiſh and overcome
+all his enemies:</hi> and let us bleſs God, that he hath thought us worthy of ſo gracious a
+Prince: a Prince who is every way great and good; and who is kind to us to the utmoſt of our
+wiſhes, which paſt ages have not known, and future will ſooner admire than be<g ref="char:EOLhyphen"/>lieve: and
+whoſe Wiſdom, Juſtice, and Mercy (to thoſe that endeavour to deſerve it); whoſe
+Munifi<g ref="char:EOLhyphen"/>cence and Magnanimity; whoſe Bravery and Con<g ref="char:EOLhyphen"/>duct, in a thouſand occaſions hath been
+ſhew'n at <hi>Land.</hi> Thoſe terrible actions upon the <hi>Bri<g ref="char:EOLhyphen"/>tiſh</hi> Ocean, voluntarily
+expoſing his illuſtrious life to the moſt hazardous and dreadful of all combats and dangers,
+to preſerve, not only the <hi>reputation,</hi> but the <hi>juſt dominion</hi> of the
+<hi>Sea,</hi> for the <hi>intereſt</hi> and <hi>glory</hi> of the Engliſh <hi>name</hi> and
+<hi>nation.</hi> A Prince whoſe Royal vir<g ref="char:EOLhyphen"/>tues, and Royal merits entitle him to the Crown a<g ref="char:EOLhyphen"/>bove
+all others; if he had not been born to it. All which his Excellencies, and infinitely more,
+illuſtrate themſelves to the world, and need no recounting.
+<pb n="28" facs="tcp:100995:18"/>But becauſe the Rebels now in arms, colour their hor<g ref="char:EOLhyphen"/>rid Treaſon, and
+animate the giddy multitude, by poy<g ref="char:EOLhyphen"/>ſoning their Affections with curſed Inſinuations; and by
+blackning their Lawful Soveraign with unjuſt re<g ref="char:EOLhyphen"/>flections, and moſt falſe and moſt
+injurious Aſper<g ref="char:EOLhyphen"/>ſions; I think it my duty to refell and explode the monſtroſity of their
+Treaſonable pretenſions and practices: which Clouds of Rebellion can be no way better
+diſpers'd, than by the Sun-beams of Majeſty it ſelf.</p>
+            <p>And thus let us ſhew our <hi>love</hi> to the <hi>King,</hi> and our readineſs to
+<hi>ſerve</hi> him in this <hi>great action,</hi> by ſub<g ref="char:EOLhyphen"/>jecting our ſelves <hi>firſt</hi>
+unto God whoſe <hi>Viceroy</hi> he is. And we may be aſſured, that they that will not be
+<hi>Loyal</hi> to the <hi>univerſal</hi> Lord of all the world, can ſcarce poſſibly be ſo
+to their <hi>particular</hi> Soveraign. And 'twill need a great deal of <hi>Charity</hi> to help us
+to believe that they who make no <hi>Scruple</hi> to ſtand <hi>Neuters</hi> in <hi>Gods
+cauſe,</hi> and to break even the plaineſt and moſt earneſt, and moſt expreſs of his
+Laws, which command to ſecure and defend the <hi>Rights</hi> of our <hi>Prince,</hi> will be
+withheld by conſidera<g ref="char:EOLhyphen"/>tions of <hi>Duty</hi> or <hi>Conſcience</hi> from <hi>Rebelling</hi>
+againſt their King, or <hi>affronting</hi> his, when there's any power<g ref="char:EOLhyphen"/>ful intereſt to oblige
+them to it.</p>
+            <p>If therefore we would give any evidence of a tho<g ref="char:EOLhyphen"/>row <hi>obedience</hi> at preſent, or any
+ſecurity of a future <hi>Loyalty;</hi> let us do ſo by uſing all holy endeavours in the
+<hi>ſincerity</hi> of our <hi>ſouls,</hi> to ingage <hi>heaven</hi> on our ſide; and then
+there will be <hi>hope</hi> that the <hi>Authority</hi> of <hi>God</hi> may oblige us to
+<hi>Sacrifice</hi> our <hi>lives</hi> and our <hi>fortunes</hi> in the defence of his
+<hi>Miniſter,</hi> wholly aiming to make
+<pb n="29" facs="tcp:100995:18" rendition="simple:additions"/>his Raign, ſafe, eaſie and proſperous; and in doing ſo we
+ſhall be bleſt with his <hi>Influence,</hi> and deſerve his <hi>Protection.</hi>
+            </p>
+            <p>And thus behaving your ſelves with <hi>Bravery, Courage</hi> and <hi>Conduct,</hi>
+anſwerable to the <hi>goodneſs</hi> and <hi>juſtice</hi> of your <hi>great Maſters</hi>
+cauſe; your Enemies ſhall be ſubdued under ye, or flye before ye, and <hi>peace</hi> ſhall
+be again eſtabliſhed in our Borders, and <hi>God,</hi> even our own <hi>God</hi> ſhall give
+us <hi>his bleſſing; his bleſſing</hi> of <hi>peace;</hi> And thus fighting for
+<hi>peace,</hi> demean<g ref="char:EOLhyphen"/>ing our ſelves like <hi>Profeſſors</hi> of the <hi>Goſpel</hi> of
+<hi>peace,</hi> and <hi>Subjects</hi> of the <hi>Prince</hi> of <hi>peace;</hi> the <hi>peace</hi>
+he left with his <hi>Diſciples,</hi> will be with us here, and ever<g ref="char:EOLhyphen"/>laſting <hi>peace</hi> will
+encircle our heads with rayes of <hi>Glory</hi> in the <hi>Kingdom</hi> of <hi>Peace.</hi>
+            </p>
+            <p>
+               <hi>And ſo the Peace of God which,</hi> &amp;c.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:100995:19"/>
+            <head>BOOKS PRINTED For <hi>CHARLES BROME.</hi>
+            </head>
+            <p>THE Method and Order of Reading both Civil and Eccleſiaſtical Hiſtory, by <hi>Edmund
+Bohun,</hi> 
+               <abbr>Eſq</abbr> Author of the Addreſs to the Freemen and Freeholders.</p>
+            <p>Biſhop <hi>Lloyds</hi> Hiſtorical account of Church Go<g ref="char:EOLhyphen"/>vernment.</p>
+            <p>
+               <hi>Bona</hi>'s Guide to Eternity.</p>
+            <p>—his Precepts and Practical Rules for a truly Chri<g ref="char:EOLhyphen"/>ſtian life.</p>
+            <p>
+               <hi>Camfield</hi>'s Sermon preached at <hi>Leiceſter</hi> on Pro<g ref="char:EOLhyphen"/>claiming King <hi>James</hi>
+the Second.</p>
+            <p>A Serious Apology for the Laws Eſtabliſhed.</p>
+            <p>All Sir <hi>Roger L'Eſtrange</hi>'s Tracts in <hi>quarto,</hi> and his Tranſlations in
+<hi>octavo.</hi>
+            </p>
+            <p>Several Sermons both at Court and other places.</p>
+            <p>A Narrative of the principal Actions occuring in the wars betwixt <hi>Sweden</hi> and
+<hi>Denmark.</hi>
+            </p>
+            <pb facs="tcp:100995:19"/>
+         </div>
+      </back>
+   </text>
+</TEI>
